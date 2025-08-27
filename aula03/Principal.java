@@ -7,8 +7,10 @@ public class Principal {
         
         lista.addInicio("osuru");
         lista.addInicio("kuji");
-        lista.addFim("muitolegal");
+        lista.addFinal("muitolegal");
         
+        lista.imprimeLista();
+        lista.removerFinal();
         lista.imprimeLista();
     }
 }
