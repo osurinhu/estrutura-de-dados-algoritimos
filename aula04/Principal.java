@@ -12,7 +12,7 @@ public class Principal{
         pilha.imprimePilha();
 
         System.out.println("#################################");
-        System.out.println(pilha.pop());
+        System.out.println(pilha.peek());
         System.out.println("#################################");
         
         pilha.imprimePilha();
