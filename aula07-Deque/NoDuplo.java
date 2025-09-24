@@ -51,13 +51,14 @@ public class NoDuplo<T> {
     @Override
     public String toString(){
         String s = "{Indice: " + getIndice() + " Dado: " + getDado();
-
+        /*
         if (getAnteriorNo() != null){
             s += " Ante: " + getAnteriorNo().getDado();
         }
         if (getProximoNo() != null){
             s += " Prox: " + getProximoNo().getDado();
         }
+        */
         s += "}";
         return s;
     }
@@ -85,6 +86,6 @@ public class NoDuplo<T> {
             aux.decrementaIdx();
             aux = aux.getProximoNo();
         }
-        return;
+         return;
     }
 }
